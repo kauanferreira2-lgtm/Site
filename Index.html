@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agrinex — Tecnologia no Campo</title>
+
+  <!-- Bootstrap 5.3 -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Estilos do projeto -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════
+       NAVBAR
+  ════════════════════════════════ -->
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="container-lg px-3">
+
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="Agrinex" class="agrinex-logo" />
+      </a>
+
+      <!-- Botão mobile -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navMenu"
+        aria-controls="navMenu"
+        aria-expanded="false"
+        aria-label="Abrir menu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-md-1 py-2 py-md-0">
+          <li class="nav-item"><a class="nav-link" href="#features">Funcionalidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#how">Como funciona</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sensors">Sensores</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Assinatura</a></li>
+          <li class="nav-item"><a class="nav-link" href="#footer">Contato</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════════════════════
+       HERO
+  ════════════════════════════════ -->
+  <section class="hero-section d-flex align-items-center justify-content-center text-center text-white">
+    <div class="hero-inner px-3">
+      <h1 class="hero-title mb-3">
+        Tecnologia no campo,<br>colheita no futuro.
+      </h1>
+      <p class="hero-sub mx-auto mb-4">
+        O aplicativo que ajuda você a cuidar melhor da sua plantação com informações simples e no seu celular.
+      </p>
+      <a href="#products" class="btn-cta">Baixar aplicativo</a>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════
+       FUNCIONALIDADES
+  ════════════════════════════════ -->
+  <section class="py-5 bg-white" id="features">
+    <div class="container-lg px-3 px-md-4">
+
+      <div class="fade-in mb-5">
+        <span class="sec-label">Funcionalidades</span>
+        <h2 class="sec-title">Tudo que sua lavoura precisa</h2>
+        <p class="text-muted mb-0">Informações simples e alertas no tempo certo direto no seu celular.</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="feat-card p-3 h-100 d-flex align-items-start gap-3">
+            <div class="feat-icon ic-weather">☁️</div>
+            <div>
+              <h3 class="feat-title">Previsão do tempo</h3>
+              <p class="feat-text mb-0">Veja a chuva, o sol e a temperatura de sua região para os próximos dias.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="feat-card p-3 h-100 d-flex align-items-start gap-3">
+            <div class="feat-icon ic-pest">🐛</div>
+            <div>
+              <h3 class="feat-title">Aviso de pragas</h3>
+              <p class="feat-text mb-0">Receba alertas sobre as pragas que podem afetar sua plantação.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="feat-card p-3 h-100 d-flex align-items-start gap-3">
+            <div class="feat-icon ic-plant">🌿</div>
+            <div>
+              <h3 class="feat-title">Dicas de plantio</h3>
+              <p class="feat-text mb-0">Saiba a melhor época para plantar cada tipo de cultura.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="feat-card p-3 h-100 d-flex align-items-start gap-3">
+            <div class="feat-icon ic-water">💧</div>
+            <div>
+              <h3 class="feat-title">Controle de irrigação</h3>
+              <p class="feat-text mb-0">Descubra quando e quanto irrigar suas plantas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════
+       COMO FUNCIONA
+  ════════════════════════════════ -->
+  <section class="py-5 bg-cream" id="how">
+    <div class="container-lg px-3 px-md-4">
+
+      <div class="fade-in mb-5">
+        <span class="sec-label">Como funciona</span>
+        <h2 class="sec-title">Simples em 3 passos</h2>
+        <p class="text-muted mb-0">Em minutos você já está usando o Agrinex na sua lavoura.</p>
+      </div>
+
+      <div class="steps-wrap mx-auto">
+        <div class="step-row step-1 d-flex align-items-start gap-3 py-4">
+          <div class="step-circle">1</div>
+          <div>
+            <div class="step-emoji">📱</div>
+            <h3 class="feat-title">Baixe o aplicativo</h3>
+            <p class="feat-text mb-0">Instale o Agrinex no seu celular. É rápido e grátis.</p>
+          </div>
+        </div>
+        <div class="step-row step-2 d-flex align-items-start gap-3 py-4">
+          <div class="step-circle">2</div>
+          <div>
+            <div class="step-emoji">☁️</div>
+            <h3 class="feat-title">Veja as informações</h3>
+            <p class="feat-text mb-0">Confira o clima, avisos e dicas para sua região.</p>
+          </div>
+        </div>
+        <div class="step-row step-3 d-flex align-items-start gap-3 py-4">
+          <div class="step-circle">3</div>
+          <div>
+            <div class="step-emoji">✅</div>
+            <h3 class="feat-title">Cuide da plantação</h3>
+            <p class="feat-text mb-0">Tome decisões com base em dados e colha mais a cada safra.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════
+       SENSORES
+  ════════════════════════════════ -->
+  <section class="py-5 sensors-section" id="sensors">
+    <div class="container-lg px-3 px-md-4">
+
+      <div class="fade-in mb-5">
+        <span class="sec-label sec-label-amber">Sensores</span>
+        <h2 class="sec-title text-white">Inteligência no solo</h2>
+        <p class="sec-sub-light mb-0">Sensores que avisam a hora certa de irrigar e alertam sobre o clima. Funciona junto com o app!</p>
+      </div>
+
+      <div class="row g-3 justify-content-center">
+        <div class="col-12 col-sm-6 col-md-5">
+          <div class="sensor-card hum p-4 text-center">
+            <div class="sensor-wrap mx-auto mb-3">💧</div>
+            <h3 class="sensor-title">Sensor de umidade</h3>
+            <p class="sensor-text mb-0">Mede a umidade do solo e avisa quando precisa observar.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-5">
+          <div class="sensor-card tmp p-4 text-center">
+            <div class="sensor-wrap mx-auto mb-3">🌡️</div>
+            <h3 class="sensor-title">Sensor de temperatura</h3>
+            <p class="sensor-text mb-0">Monitora a temperatura e protege sua cultura de variações extremas.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════
+       ASSINATURA
+  ════════════════════════════════ -->
+  <section class="py-5 bg-white" id="products">
+    <div class="container-lg px-3 px-md-4">
+
+      <div class="fade-in mb-5">
+        <span class="sec-label">Nossos produtos</span>
+        <h2 class="sec-title">Escolha o seu plano</h2>
+        <p class="text-muted mb-0">Comece de graça e evolua quando quiser.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <!-- Gratuito -->
+        <div class="col-12 col-sm-10 col-md-5">
+          <div class="prod-card prod-free p-4 h-100 d-flex flex-column">
+            <span class="prod-badge prod-badge-free mb-3">Gratuito</span>
+            <div class="prod-emoji mb-2">📱</div>
+            <h3 class="prod-name prod-name-free">Aplicativo</h3>
+            <div class="prod-price prod-price-free mb-2">R$0</div>
+            <p class="prod-desc text-muted mb-3">Acesso a previsão do tempo e dicas básicas de plantio.</p>
+            <ul class="prod-features prod-features-free mb-4 flex-grow-1">
+              <li>Previsão do tempo local</li>
+              <li>Dicas básicas de plantio</li>
+              <li>Alertas de pragas</li>
+            </ul>
+            <button class="btn-plan btn-plan-free">Baixar</button>
+          </div>
+        </div>
+        <!-- Premium -->
+        <div class="col-12 col-sm-10 col-md-5">
+          <div class="prod-card prod-premium p-4 h-100 d-flex flex-column">
+            <span class="prod-badge prod-badge-premium mb-3">⭐ Recomendado</span>
+            <div class="prod-emoji mb-2">🚀</div>
+            <h3 class="prod-name prod-name-premium">Aplicativo completo</h3>
+            <div class="prod-price prod-price-premium mb-2">
+              R$29<span class="prod-period">/mês</span>
+            </div>
+            <p class="prod-desc prod-desc-premium mb-3">Todas as funcionalidades + avisos de regras e controle completo de fiscalização.</p>
+            <ul class="prod-features prod-features-premium mb-4 flex-grow-1">
+              <li>Tudo do plano gratuito</li>
+              <li>Controle de irrigação</li>
+              <li>Sensores integrados</li>
+              <li>Avisos de fiscalização</li>
+            </ul>
+            <button class="btn-plan btn-plan-premium">Assinar agora</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════
+       FOOTER
+  ════════════════════════════════ -->
+  <footer class="site-footer py-5 text-center" id="footer">
+    <div class="container-lg px-3">
+      <img src="logo.png" alt="Agrinex" class="footer-logo mb-3" />
+      <p class="footer-tagline mb-4">Tecnologia no campo, colheita no futuro.</p>
+      <ul class="list-inline footer-links mb-4">
+        <li class="list-inline-item"><a href="#features">Sobre</a></li>
+        <li class="list-inline-item"><a href="#products">Assinatura</a></li>
+        <li class="list-inline-item"><a href="#footer">Contato</a></li>
+      </ul>
+      <p class="footer-copy mb-0">© 2026 Agrinex. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JS do projeto -->
+  <script src="script.js"></script>
+
+</body>
+</html>
